@@ -1,0 +1,67 @@
+.graph__container {
+  .graph__external__legend__wrapper {
+    margin: 0 8px;
+
+    rect.graph__legend__square:focus {
+      outline: none;
+    }
+  }
+}
+
+svg.graph__wrapper {
+  font-family:'Inter';
+  line-height: 10px;
+  width: 100%;
+
+  .graph__months__labels__wrapper text.graph__month__label {
+    font-size: 10px;
+  }
+
+  .graph__days__labels__wrapper text.graph__day__label,
+  .graph__legend__wrapper text {
+    font-size: 9px;
+  }
+
+  text.graph__month__label,
+  text.graph__day__label,
+  .graph__legend__wrapper text {
+    fill: #767676;
+  }
+
+  rect.graph__day__square:hover {
+    stroke: #484848;
+    stroke-width: 1.5px;
+    paint-order: stroke;
+  }
+  rect.graph__day__square:active {
+    stroke: #484848;
+    stroke-width: 1.5px;
+    paint-order: stroke;
+  }
+
+  rect.graph__day__square:focus {
+    outline: none;
+  }
+}
+.graph__legend__text {
+  font-family: Inter;
+  font-size: 8px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  fill: #767676;
+}
+
+div[data-tippy-root] {
+  text-align: center;
+  
+}
+.tippy-box {
+  text-align: center;
+  flex-shrink: 0;
+  border-radius: 3px;
+  background: #000;
+ 
+}
+
+
